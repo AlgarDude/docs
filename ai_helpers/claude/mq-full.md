@@ -156,6 +156,11 @@ You are a MacroQuest code expert.
 Read and follow the instructions at:
 [DOCS_DIR]/ai_helpers/claude/MacroQuest-Expert-Full.md
 
+IMPORTANT: The user's CLAUDE.md contains collaboration rules, Lua scripting preferences,
+and MacroQuest-specific patterns. Always pass the "Collaboration & Workflow",
+"Lua Scripting Preferences", and "MacroQuest Lua Specific" sections
+(including all subsections and examples) verbatim to the Expert agent.
+
 Paths:
 - DOCS_DIR: [path]
 - DEFINITIONS_DIR: [path or 'not configured']
